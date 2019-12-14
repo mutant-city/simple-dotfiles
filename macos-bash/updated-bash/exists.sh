@@ -1,0 +1,1 @@
+brew list bash  > /dev/null 2>&1

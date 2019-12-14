@@ -1,0 +1,24 @@
+# the location of all of your packages, can be named anything parsable by python
+# note: good naming convention I've found so far is <OS-Shell> as these seem to be the biggest two factors involved
+#   with environment comatibility
+vendor-directory: ./macos-bash
+
+# the shell you want to use to run all of the .sh scripts
+# this is typically not changed unless you want to use zsh or some other shell
+# (note: the packages will also have to be written for zsh)
+shell-location: /bin/bash
+
+# all the packages you want to install and source are here
+# this must match the package name inside of the vendor-directory folder
+packages:
+  - brew
+  - git
+  - bash-completion
+  - hyperjump
+  - git-alias
+  - mac-spoof-functions
+  - extract-function
+  - terminal-appearance
+  - cheat-command
+  - cli-command-improvements
+  - updated-bash

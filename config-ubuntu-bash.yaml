@@ -1,0 +1,14 @@
+vendor-directory: ./macos
+shell-location: /bin/bash
+packages:
+  - brew
+  - git
+  - bash-completion
+  - hyperjump
+  - git-alias
+  - mac-spoof-functions
+  - extract-function
+  - terminal-appearance
+  - cheat-command
+  - cli-command-improvements
+  - updated-bash
