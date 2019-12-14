@@ -22,7 +22,7 @@
     * run `python3 simpledot.py -f <your config file name> -c <your package name>`
     * You will see a directory created in your vendor-directory folder with your package name with empty scripts
 1. Fill out one or more of the scripts in the package
-    * all commands in install.sh will be run if install.sh returns 1 and depends.sh returns 0
+    * all commands in install.sh will be run if exists.sh returns 1 and depends.sh returns 0
     * all commands in the source.sh will be concatenated into a sources.sh file to add to your .bash_profile/.bashrc    
 1. Add your new package name to your config file under the packages key
 1. run `python3 simpledot.py -f <your config file name> -r`
