@@ -1,0 +1,1 @@
+rm ~/.bash_sessions_disable

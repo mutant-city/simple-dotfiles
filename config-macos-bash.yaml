@@ -22,4 +22,4 @@ packages:
   - cheat-command
   - cli-command-improvements
   - updated-bash
-  # - bash-history
+  - bash-history
